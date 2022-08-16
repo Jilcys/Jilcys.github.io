@@ -1,133 +1,52 @@
-<!doctype HTML>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>My Portfolio</title>
-	
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="preconnect" href="https://fonts.gstatic.com"/>
-	<meta charset="utf-8"/>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-	integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-	crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="icon" href="img/favicon.png">
-	
-	
-</head>
-<body>
-<!-- Main page -->
 
-	<div id="hero" class="hero">
-		
-		<nav>
-			<h2 class="logo">Jil<span>Bao</span></h2>
-			<ul>
-				<li><a href="#">Home ☺</a></li>
-				<li><a href="#about">About Me</a></li>
-				<li><a href="#projects">Projects</a>
-				<ul>
-					<li><a href="#">C</a></li>
-					<li><a href="#">Python</a></li>
-					<li><a href="#">Web</a></li>
-				</ul>
-				</li>
-				<li><a href="contact.html">Contact Us</a></li>
-			</ul>
-			
-		</nav>
-		
-		<div class="content">
-			<button id="kenshin">Kenshin</button>
-			<button id="cat">Cat</button>
-			<h4>Hello, my name is</h4>
-			<h1>Jil<span id="logo-span">Bao</span></h1>
-			<h3>I'm trying to be a Dev</h3>
-			<div class="newslatter">
-				<form onsubmit="greet(); return false;" >
-					<input autocomplete="off" type="text" name="q" id="mail" placeholder="Enter your Email">
-					<input type="submit" name="submit" value="Let's Start">
-				</form>
-			</div>
-		</div>
-	</div>
-<!-- About Me page -->
-	<section class="about">
-	<a id="about"></a>
-		<div class="main">
-			<img src="img/main-img.png" alt="background image">
-			<div class="about-text">
-				<h2>About Me</h2>
-				<h5>Developer & Designer</h5>
-				<p>I started the journey of being a Software Developer with serious career change decision. My first language was Python
-				and I added html/css after that. The journey is still going on and I've got some idea about what other tools should I add under my belt.
-				</p>
-				<button type="button">Let's Talk</button>
-			</div>
-			
-		</div>
-	</section>
-<!-- Projects Page -->
-	<div class="service">
-	<a id="projects"></a>
-		<div class="title">
-			<h2>Projects</h2>
-		</div>
-		<div class="box">
-			<div class="card">
-				<i class="fa-solid fa-bars"></i>
-				<h5>Cat Photo App</h5>
-				<div class="pra">
-					<p> Freecodecamp projects</p>
-					
-					<p style="text-align: center;">
-						<a class="button" href="freecodecamp/ResponsiveWebDesign/1catphotoapp/catphotoapp.html">Cat Photo App</a>
-					</p>
-				</div>
-			</div>
-			<div class="card">
-				<i class="fa-solid fa-user"></i>
-				<h5>Cafe Menu</h5>
-				<div class="pra">
-					<p> Freecodecamp projects</p>
-					
-					<p style="text-align: center;">
-						<a class="button" href="freecodecamp/ResponsiveWebDesign/2cafemenu/cafemenu.html">Cafe Menu</a>
-					</p>
-				</div>
-			</div>
-			<div class="card">
-				<i class="fa-solid fa-bell"></i>
-				<h5>Registration Form</h5>
-				<div class="pra">
-					<p> Freecodecamp projects</p>
-					
-					<p style="text-align: center;">
-						<a class="button" href="freecodecamp/ResponsiveWebDesign/4regform/regform.html">Read More</a>
-					</p>
-				</div>
-			</div>			
-		</div>
-	</div>
-<!--Contact Me-->
-	<div class="contact">
-	<a id="contact"></a>
-		<p>Let me work on your project</p>
-		<a class="button_two" href="#">Hire Me</a>
-	</div>
-<!--Footer-->
-	<footer>
-		<p>me@jilbao.com</p>
-		
-		<p>For more Information, feel free to contact me through link below</p>
-		<div class="social">
-			<a href="https://www.linkedin.com/in/çağın-yarkın-sarı-5a7581244/"><i class="fa-brands fa-linkedin"></i></a>
-			<a href="https://www.instagram.com/cagin.sari/"><i class="fa-brands fa-instagram"></i></a>
-			<a href="#"><i class="fa-brands fa-facebook"></i></a>
-		</div>
-		<p class="end">CopyRight &#169; by Jilbao</p>
-	</footer>
-	
-	
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CYS Personal Site</title>
+</head>
+
+<body>
+  <img src="./imgs/cys.png" width="200">
+  <h1>Çağın Yarkın Sarı</h1>
+  <p>Self-taught Web Developer, Agricultural Engineer</p>
+  <p>My enthusiast to compute technologies, encouraged me to overcome yet another learning curve about programming after my Agricultural Machinery Engineering background. End of my journey, I believe I'll have a broad and concrete vision about intersecting my both aspect of professions. </p>
+  <hr />
+  <h3>Education</h3>
+  <ul>
+    <li><strong>Akdeniz University</strong>, Master of Science - MS, Agricultural Mechanics and Equipment/Machine Technology</li>
+    <li><strong>Ege University</strong>, Bachelor's degree, Agricultural Mechanics and Equipment/Machine Technology</li>
+  </ul>
+  <hr />
+  <h3>Courses</h3>
+  <ul>
+    <li> <a href="https://www.py4e.com/">Python Course</a> from <a href="https://online.dr-chuck.com/">Dr.Charles Russell Severance</a></li>
+    <li> CS50 from <a href="https://www.edx.org/school/harvardx?g_acctid=724-505-4034&g_campaign=gs-b2c-nonbrand-tier1geo-partner-harvard-core&g_campaignid=15417765031&g_adgroupid=131210224558&g_adid=565368057011&g_keyword=harvardx&g_keywordid=kwd-405720322997&g_network=g&utm_source=google&utm_campaign=gs-b2c-nonbrand-tier1geo-partner-harvard-core&utm_medium=cpc&utm_term=harvardx&hsa_acc=7245054034&hsa_cam=15417765031&hsa_grp=131210224558&hsa_ad=565368057011&hsa_src=g&hsa_tgt=kwd-405720322997&hsa_kw=harvardx&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjwgO2XBhCaARIsANrW2X1RFS9MANpioAf4-iYWqwawyT87zTLEf2XmjzzVbWk2Lj1e1FwXplQaAsYIEALw_wcB">HarvardX</a><ul>
+      <li><a href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x">CS50X</a>: CS50's Introduction to Computer Science
+        <ul>
+          <li>My Final Project</li>
+        </ul>
+      </li>
+      <li><a href="https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript">CS50W</a>: CS50's Web Programming with Python and JavaScript
+        <ul>
+          <li>My Final Project</li>
+        </ul>
+      </li>
+    </ul></li>
+    <li> <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">The Complete Web Development Bootcamp</a> from <a href="https://www.udemy.com/user/4b4368a3-b5c8-4529-aa65-2056ec31f37e/">Dr.Angela Yu</a></li>
+   
+  </ul>
+  <hr>
+  <h3>Hobies</h3>
+  <ol>
+    <li>Gaming </li>
+    <li></li>
+    <li></li>
+  </ol>
+
+
 </body>
-<script type="text/javascript" src="scripts/bg.js"></script>
+
 </html>
