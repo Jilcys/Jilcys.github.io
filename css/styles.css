@@ -1,0 +1,14 @@
+form {
+    width: 350px;
+    display: flex;
+    flex-direction: column;    
+}
+form label, input, textarea{
+    padding: 2px;
+    margin: 2px;
+}
+hr {
+    height: 2px;
+    border-color: #0f3d0f;
+
+}

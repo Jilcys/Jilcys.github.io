@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>CYS Contact Me</title>
 </head>
 <body>
-    <h1>me@jilbao.com</h1>
+    <h1>My Contact Details</h1>
+    <p>Adress</p>
+    <p>Phone</p>
+    <p>me@jilbao.com</p>
+    <hr>
+    <form class="" action="mailto:me@jilbao.com" method="post">
+        <label for="name"> Your Name: </label>
+        <input autocomplete="off" id="name" name="name" type="text">
+        <label for="email"> Your Email: </label>
+        <input autocomplete="off" id="email" name="email" type="email">
+        <label for="msg"> Your Message:</label>
+        <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+        <input type="submit">
+    </form>
 </body>
 </html>
