@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="surveyform_style.css">
+</head>
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+        <label id="name-label">Name <input id="name" type="text" placeholder="Enter your name" required></label>
+        <label id="email-label">Email <input id="email" type="email" placeholder="Enter your Email" required></label>
+        <label id="number-label">Age (optional) <input id="number" type="number" min="14" max="80"></label>
+        <label id="dropdown-label">Which option best describes your current role?
+            <select id="dropdown">
+                <option value="0">Select current role</option>
+                <option value="1">Student</option>
+                <option value="2">Full Time Job</option>
+                <option value="3">Full Time Learner</option>
+                <option value="4">Prefer not to say</option>
+                <option value="5">Other</option>
+            </select>
+        </label>
+        <label id="recommend">Would you recommend freeCodeCamp to a friend?
+            <label><input name="recommend-b" type="radio">Definitely</label>
+            <label><input name="recommend-b" type="radio">Maybe</label>
+            <label><input name="recommend-b" type="radio">Not sure</label>
+        </label>
+        <label id="improve">What would you like to see improved?
+            <label><input name="improve-c" value="Front-end" type="checkbox">Front-end Projects </label>
+            <label><input name="improve-c" value="Back-end" type="checkbox">Back-end Projects </label>
+            <label><input name="improve-c" value="Data" type="checkbox">Data Visualization </label>
+            <label><input name="improve-c" value="Challenges" type="checkbox">Challenges </label>
+            <label><input name="improve-c" value="Open" type="checkbox">Open Source Community </label>
+            <label><input name="improve-c" value="Gitter" type="checkbox">Gitter help rooms </label>
+        </label>
+        <label id="com-sug">Any comments or suggestions?
+            <textarea name="com-sug-text" rows="3" cols="30" placeholder="Enter your command here..."></textarea>
+        </label>
+        <input id="submit" type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
