@@ -1,3 +1,15 @@
+body{
+    background-color: #C9CCD5;
+    margin: 0 auto;
+    width: 80%;
+    --hcolor: #3f7777;
+}
+
+a {
+    text-decoration: none;
+}
+
+
 form {
     width: 350px;
     display: flex;
@@ -8,7 +20,20 @@ form label, input, textarea{
     margin: 2px;
 }
 hr {
-    height: 2px;
-    border-color: #0f3d0f;
+    height: 0px;
+    border-width: 5px;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #0f3d0f77;
+    width: 20%;
 
+}
+h1, h3 {
+    color: var(--hcolor);
+}
+img{
+    width: 250px;
+}
+ul li {
+    padding: 3px;
 }
