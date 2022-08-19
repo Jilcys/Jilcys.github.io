@@ -52,6 +52,11 @@ p{
 .profile img {
     width: 250px;
 }
+.hello-text{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
 
 .skill-row {
     width: 50%;
