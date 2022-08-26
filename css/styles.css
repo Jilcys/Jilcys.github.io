@@ -5,6 +5,7 @@ body {
   color: #40514E;
   
 }
+
 h1 {
   font-family: "Dancing Script", cursive;
   font-size: 5.62rem;
@@ -35,21 +36,18 @@ p{
 .top-container {
   background-color: #EAF6F6;
   position: relative;
-  padding-top: 100px;
+  padding-top: 75px;
+  background-image: url("/img/background.jpg");
+  opacity: 1;
+  background-position: center;
 }
 
-.first-cloud {
-  position: absolute;
-  top: 50px;
-  right: 50px;
+.heading-text{
+  padding-bottom: 100px;
   
 }
-.second-cloud {
-  position: absolute;
-  top: 350px;
-  left: 50px;
-}
 .profile img {
+  padding-top: 10px;
     width: 250px;
 }
 .hello-text{
@@ -58,11 +56,17 @@ p{
   text-align: center;
 }
 
-.skill-row {
+.skill-row1 {
     width: 50%;
     margin: 100px auto;
     text-align: left;
     line-height: 2;
+}
+.skill-row2 {
+  width: 50%;
+  margin: 100px auto;
+  text-align: right;
+  line-height: 2;
 }
 .frontend-img{
     width:25%;
@@ -76,6 +80,13 @@ p{
 }
 .frontend-desc ul{
     display: inline-block;
+}
+.backend-desc ul{
+  display: inline-block;
+  padding-bottom: 50px;
+}
+.backend-desc ul li {
+  text-align: left;
 }
 hr {
     height: 0px;
