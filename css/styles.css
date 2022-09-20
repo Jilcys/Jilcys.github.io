@@ -1,13 +1,21 @@
+:root{
+  /* COLOR PALETTE */
+  --maincolor : #1C3C54;
+  --secondary: #1D6665;
+  --whitespace: #E6FFFE;
+  --hintcolor: #6E8BA3;
+}
+
 body {
     margin: 0;
   text-align: center;
   font-family: "Merriweather", serif;
-  color: #40514E;
-  
+  color: var(--whitespace);
+  background-color: var(--secondary);
 }
 
 h1 {
-  font-family: "Dancing Script", cursive;
+  font-family: "Montserrat", cursive;
   font-size: 5.62rem;
   margin: 50px auto 0 auto;
   
@@ -25,16 +33,16 @@ h2{
     font-weight: normal;
 }
 h1, h2{
-    color: #66BFBF;
+    color: var(--whitespace);
 }
 h3, a{
-    color: #11999E;
+    color: var(--whitespace);
 }
 p{
     line-height: 1.35;
 }
 .top-container {
-  background-color: #EAF6F6;
+  background-color: var(--secondary);
   position: relative;
   padding-top: 75px;
   background-image: url("/img/background.jpg");
@@ -111,7 +119,7 @@ hr {
     padding-bottom: 45px;
 }
 .bottom-container a{
-    color: #11999e;
+    color: var(--whitespace);
     text-decoration: none;
     padding: 20px;
 }
